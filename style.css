@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Gilroy';
+    font-family:'Gilroy';
     src: url('font/Gilroy-Regular.woff') format('woff');
     font-weight: bold;
     font-style: normal;
@@ -12,10 +12,12 @@
 }
 
 body{
-    background-color: #222;
+    background-color:#edc7b7;
     font-family: 'Gilroy';
 }
-
+.savingsImgs{
+  
+}
 *{
     font-family: 'Gilroy';
     list-style: none;
@@ -45,7 +47,7 @@ input[type=number] {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: #34006a;
+    background-color: #ac3b61;
 }
 
 .budget-container .app-title{
@@ -103,7 +105,7 @@ input[type=number] {
     opacity: 0.5;
 }
 .budget-header .account .income .income-total{
-    color: #FFF;
+    color:  #00cc00;
     font-family: 'Gilroy Bold';
 }
 
@@ -112,7 +114,7 @@ input[type=number] {
     opacity: 0.5;
 }
 .budget-header .account .outcome .outcome-total{
-    color: #f0624d;
+    color:  #ed462c;
     font-family: 'Gilroy Bold';
 }
 
@@ -431,4 +433,193 @@ input[type=number] {
     background-image: url('icon/trash.png');
     background-size: 20px 20px;
     background-repeat: no-repeat;
+}
+
+/* werbsite */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,nav {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+    background-color: #FFF;
+}
+header h2 {
+    text-transform: uppercase;
+    color: #b38f00;
+}
+header nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+header nav li {
+    margin: 0 15px;
+}
+header nav li:first-child {
+    margin-left: 0;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+header nav li a {
+    color: #b38f00;
+}
+#chicagoSkyline {
+    width:55%;
+    height:200px;
+    opacity: 0.7;
+}
+.container-1 {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 110px 100px;
+}
+.titleWrapper {
+    position: relative;
+    align-self: flex-start;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.titleWrapper p{
+    position:absolute;
+    padding-top: 10px;
+}
+.website {
+background: linear-gradient(#e6f7ff,#c1c8e4,#9776d6),
+  linear-gradient(#e6f7ff,#c1c8e4),
+  linear-gradient(#e6f7ff,#c1c8e4);
+  height:900px;
+}
+  
+.container-2 {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+#womenMoney {
+    max-width:500px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.startBtn {
+    border-radius: 10px;
+    padding: 10px 55px;
+    align-self:center;
+  background-color:#f4d8ae;
+    
+}
+
+/*start.html page*/
+
+#acceptJob {
+    width: 55%;
+    height: auto;
+}
+
+#movingOut {
+    width:30%;
+    height: auto;
+    padding-left: 20px;
+}
+
+.subPageHeadingWrapper {
+    position: relative;
+    align-self: flex-start;
+    justify-items: center;
+}
+
+.subPageHeadingWrapper h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container-3 {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 100px 100px 150px
+}
+
+.optionOne, .optionTwo, .optionThree {
+    width: 75%;
+    height: auto;
+    flex:1;
+    padding-bottom: 15px;
+}
+
+.nextPageQuestion {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container-3 h3 {
+    text-align: center;
+}
+
+/* after picking apt */
+
+.hungry {
+    width: 40%;
+    height: auto;
+    padding-left: 10px;
+}
+
+.aptPics {
+    width:45%;
+    height: auto;
+}
+#clock{
+  height:400px;
+  width:600px;
+}
+#pig{
+   height:420px;
+  width:400px;
+  padding:20px;
 }
